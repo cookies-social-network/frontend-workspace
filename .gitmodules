@@ -2,6 +2,6 @@
 	path = apps/host
 	url = git@github.com:cookies-social-network/nuxt-host.git
 
-[submodule "apps/vue-header"]
-	path = apps/vue-header
+[submodule "apps/remote-header"]
+	path = apps/remote-header
 	url = git@github.com:cookies-social-network/vue-header.git

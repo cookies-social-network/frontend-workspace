@@ -34,8 +34,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# temp
-apps/remote
-apps/remote-header
-apps/remote-sidebar

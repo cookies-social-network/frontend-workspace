@@ -1,0 +1,3 @@
+[submodule "apps/host"]
+	path = apps/host
+	url = git@github.com:cookies-social-network/nuxt-host.git

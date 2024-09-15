@@ -2,8 +2,14 @@
 
 This repository showcases how to use Nuxt 3 + Vite with Module Federation.
 
+## Clone repo
+```bash
+$ git clone --recursive git@github.com:cookies-social-network/frontend-workspace.git
+```
+
 ## Getting started
 The repository is structured as a Turbo monorepo, where `host` package is for the Nuxt 3 host and `remote` package is for Vite + Vue-TS generated remote.
+
 
 In order to get started, you will need npm v20 (version I tested)
 ```bash
@@ -12,7 +18,7 @@ $ corepack enable
 
 You can quickly install all the package dependencies using
 ```bash
-$ pnpm i
+$ pnpm i --frozen-lockfile
 ```
 
 ## Building

@@ -8,10 +8,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: env.BASE_URL ?? '/',
-    plugins: [
-      vue(),
-      svgLoader(),
-    ],
+    plugins: [vue(), svgLoader()],
     server: {
       proxy: {
         '/api': {

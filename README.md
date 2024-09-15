@@ -7,6 +7,11 @@ This repository showcases how to use Nuxt 3 + Vite with Module Federation.
 $ git clone --recursive git@github.com:cookies-social-network/frontend-workspace.git
 ```
 
+### Update submodules 
+```bash
+$ git fetch --recurse-submodules -j2
+```
+
 ## Getting started
 The repository is structured as a Turbo monorepo, where `host` package is for the Nuxt 3 host and `remote` package is for Vite + Vue-TS generated remote.
 

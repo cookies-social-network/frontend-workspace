@@ -12,6 +12,13 @@ $ git clone --recursive git@github.com:cookies-social-network/frontend-workspace
 $ git fetch --recurse-submodules -j2
 ```
 
+### After updating the submodule, you need to update the workspace
+```bash
+$ git add <path/to/submodule>
+$ git commit -m "Обновление подмодуля <name-submodule>"
+$ git push
+```
+
 ## Getting started
 The repository is structured as a Turbo monorepo, where `host` package is for the Nuxt 3 host and `remote` package is for Vite + Vue-TS generated remote.
 

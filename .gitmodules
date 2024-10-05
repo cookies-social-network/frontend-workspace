@@ -1,6 +1,9 @@
 [submodule "apps/host"]
 	path = apps/host
-	url = git@github.com:cookies-social-network/nuxt-host.git
+	url = https://github.com/cookies-social-network/nuxt-host.git
 [submodule "apps/remote-header"]
 	path = apps/remote-header
-	url = git@github.com:cookies-social-network/vue-header.git
+	url = https://github.com/cookies-social-network/vue-header.git
+[submodule "lib/vue-uikit"]
+	path = lib/vue-uikit
+	url = https://github.com/cookies-social-network/vue-uikit.git

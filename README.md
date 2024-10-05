@@ -44,3 +44,12 @@ If you still cannot get the project running, [file an issue](https://github.com/
 
 - https://github.com/module-federation/module-federation-examples/tree/master/vite-vue-microfrontends
 - https://github.com/phoenix-ru/nuxt3-module-federation-example
+
+
+### Добавние submodule
+1. Создать репозиторий с микрофронтом, запушить в него свои изменения, запушить.
+2. В корне проекта frontend-workspace выполнить команду:
+```bash
+git submodule add https://github.com/cookies-social-network/remote-header apps/remote-header-1
+```
+3. Запушить изменения.

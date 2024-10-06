@@ -9,7 +9,7 @@ $ git clone --recursive git@github.com:cookies-social-network/frontend-workspace
 
 ### Update submodules 
 ```bash
-$ git fetch --recurse-submodules -j2
+$ git submodule update --init --recursive
 ```
 
 ### After updating the submodule, you need to update the workspace
